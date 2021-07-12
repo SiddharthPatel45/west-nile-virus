@@ -11,7 +11,7 @@ Project: https://www.kaggle.com/c/predict-west-nile-virus/overview
 
 ### Problem Statement
 
-**Due to the recent epidemic of West Nile Virus in the Windy City, the data science team at Disease And Treatment Agency was tasked to derive an effective plan to deploy pesticides throughout the city. Based on Chicago WNV dataset, we will be using various classification models to obtain the best model that can predict the probability of WNV. Metric used will be ROC AUC score.**
+**Due to the recent epidemic of West Nile Virus in the Windy City, the data science team at Disease And Treatment Agency was tasked to derive an effective plan to deploy pesticides throughout the city. Using various weather conditions, locations, spray attempt and infected mosquitos, we will be using various classification models to obtain the best model that can predict the WNV in Chicago. Test set that achieve the highest ROC AUC score would be used as the final model. Evaluation and cost-benefit analysis would be conducted to see if benefit of spraying outweighs the cost of spraying.**
 
 ---
 
