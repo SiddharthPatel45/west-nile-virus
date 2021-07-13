@@ -8,6 +8,7 @@ West Nile Virus(WNV) is most commonly spread to humans through infected mosquito
 Every week from late spring through the fall, mosquitos in traps across the city are tested for the virus. The results of these tests influence when and where the city will spray airborne pesticides to control adult mosquito populations.
 
 Project based on: https://www.kaggle.com/c/predict-west-nile-virus/overview
+
 ### Problem Statement
 
 **Due to the recent epidemic of West Nile Virus in the Windy City, the data science team at Disease And Treatment Agency was tasked to derive an effective plan to deploy pesticides throughout the city. Using various weather conditions, locations, spray attempt and infected mosquitos, we will be using various classification models to obtain the best model that can predict the WNV in Chicago. Test set with the highest ROC AUC score would be used as the final model. Evaluation and cost-benefit analysis would be conducted to see if benefit of spraying outweighs the cost of spraying.**
@@ -26,9 +27,9 @@ Train and Test dataset:
 |Species| the species of mosquitos|
 |Block| block number of address|
 |Street| street name|
-|Trap| Id of the trap|
+|Trap| id of the trap|
 |AddressNumberAndStreet|approximate address returned from GeoCoder|
-|Latitude, Longitude| Latitude and Longitude returned from GeoCoder|
+|Latitude, Longitude| latitude and longitude returned from GeoCoder|
 |AddressAccuracy| accuracy returned from GeoCoder|
 |NumMosquitos| number of mosquitoes caught in this trap|
 |WnvPresent|whether West Nile Virus was present in these mosquitos. 1 means WNV is present, and 0 means not present|
@@ -46,9 +47,9 @@ Weather dataset:
 |---|---|
 |Station| place where weather dataset was collected at|
 |Date| time that the weather data was collected |
-|Tmax| Maximum temperature (degree fahrenheit) |
-|Tmin| Minimun temperature (degree fahrenheit) |
-|Tavg| Average temperature (degree fahrenheit) |
+|Tmax| maximum temperature (degree fahrenheit) |
+|Tmin| minimun temperature (degree fahrenheit) |
+|Tavg| average temperature (degree fahrenheit) |
 |Depart| departure from normal (degree fahrenheit) |
 |DewPoint| average dew point (degree fahrenheit) |
 |WetBulb| average wet bulb (degree fahrenheit) |
