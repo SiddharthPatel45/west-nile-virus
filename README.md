@@ -45,7 +45,8 @@ Spray dataset:
 Weather dataset:
 |Feature|Description|
 |---|---|
-|Station| place where weather dataset was collected at|
+|Station| place where weather dataset was collected at. Station 1: CHICAGO O'HARE INTERNATIONAL AIRPORT Lat: 41.995 Lon: -87.933 Elev: 662 ft. above sea level,
+Station 2: CHICAGO MIDWAY INTL ARPT Lat: 41.786 Lon: -87.752 Elev: 612 ft. above sea level|
 |Date| time that the weather data was collected |
 |Tmax| maximum temperature (degree fahrenheit) |
 |Tmin| minimun temperature (degree fahrenheit) |
