@@ -17,7 +17,8 @@ Project based on: https://www.kaggle.com/c/predict-west-nile-virus/overview
 ## Executive Summary
 
 ## Data Dictionary
-|Feature|Description of train and test dataset|
+Train and Test dataset:
+|Feature|Description|
 |---|---|
 |Id| the id of the record|
 |Date| date that the WNV test is performed|
@@ -31,6 +32,40 @@ Project based on: https://www.kaggle.com/c/predict-west-nile-virus/overview
 |AddressAccuracy| accuracy returned from GeoCoder|
 |NumMosquitos| number of mosquitoes caught in this trap|
 |WnvPresent|whether West Nile Virus was present in these mosquitos. 1 means WNV is present, and 0 means not present|
+
+Spray dataset:
+|Feature|Description|
+|---|---|
+|Date| date that the spray was performed|
+|Time| time that the spray was performed |
+|Latitude| latitude of area that was sprayed |
+|Longitude| longitude of area that was sprayed |
+
+Weather dataset:
+|Feature|Description|
+|---|---|
+|Station| place where weather dataset was collected at|
+|Date| time that the weather data was collected |
+|Tmax| Maximum temperature (degree fahrenheit) |
+|Tmin| Minimun temperature (degree fahrenheit) |
+|Tavg| Average temperature (degree fahrenheit) |
+|Depart| departure from normal (degree fahrenheit) |
+|DewPoint| average dew point (degree fahrenheit) |
+|WetBulb| average wet bulb (degree fahrenheit) |
+|Heat| heating day (base = 65 F)|
+|Cool| cooling day (base = 65 F) |
+|Sunrise| time of sunrise (24-hour)|
+|Sunset| time of sunset (24-hour)|
+|CodeSum| weather phenomena |
+|Depth| depth of snow (inches) |
+|Water1| snow/ice of water equivalent (1800 UTC) |
+|SnowFall| snowfall (inches) |
+|PrecipTotal| total precipitation (inches) |
+|StnPressure| average station pressure (HG) |
+|SeaLevel| average sea level pressure (HG) |
+|ResultSpeed| resultant wind speed (miles per hour) |
+|ResulttDir| resultant direction of wind speed (degrees) |
+|AvgSpeed| average speed of wind (miles per hour) |
 
 ## Conclusion and Recommendations
 
