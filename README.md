@@ -68,6 +68,8 @@ Weather dataset:
 |ResulttDir| resultant direction of wind speed (degrees) |
 |AvgSpeed| average speed of wind (miles per hour) |
 
+The project planning document can be found [here](https://docs.google.com/spreadsheets/d/1r5826I6BlhGzuFMtSM7oJ68pLHUEUJlhdhEZntUghWI/edit#gid=1386834576).
+
 ## Conclusion and Recommendations
 
 ### Contents
