@@ -11,8 +11,7 @@ Project based on: https://www.kaggle.com/c/predict-west-nile-virus/overview
 
 ### Problem Statement
 
-**Due to the recent epidemic of West Nile Virus in the Windy City, the data science team at Disease And Treatment Agency was tasked to derive an effective plan to deploy pesticides throughout the city. Using various weather conditions and time lags, we will be analysing classification models to obtain the best model that can predict the presence of WNV in Chicago.
-**
+Due to the recent epidemic of West Nile Virus in the Windy City, the data science team at Disease And Treatment Agency was tasked to derive an effective plan to deploy pesticides throughout the city. Using various weather conditions and time lags, we will be analysing classification models to obtain the best model that can predict the presence of WNV in Chicago.
 
 ---
 
