@@ -92,6 +92,7 @@ combined_cleaned dataset (train + weather) & test_cleaned (test + weather):
 |result_dir| resultant direction of wind speed (degrees) |
 |avg_speed| average speed of wind (miles per hour) |
 |daylight| length of daylight (mins) |
+|r_humid| measure of the water vapor content of air (%) |
 |bc| patches weather type |
 |br| mist weather type |
 |dz| drizzle weather type |
