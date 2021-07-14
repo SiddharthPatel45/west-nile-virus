@@ -22,7 +22,7 @@ Train and Test dataset:
 |Feature|Description|
 |---|---|
 |Id| the id of the record|
-|Date| date that the WNV test is performed|
+|Date| date that the WNV test is performed |
 |Address| approximate address of the location of trap. This is used to send to the GeoCoder |
 |Species| the species of mosquitos|
 |Block| block number of address|
@@ -32,7 +32,7 @@ Train and Test dataset:
 |Latitude, Longitude| latitude and longitude returned from GeoCoder|
 |AddressAccuracy| accuracy returned from GeoCoder|
 |NumMosquitos| number of mosquitoes caught in this trap|
-|WnvPresent|whether West Nile Virus was present in these mosquitos. 1 means WNV is present, and 0 means not present|
+|WnvPresent| presence of West Nile Virus in these mosquitos. 1 means WNV is present, and 0 means not present|
 
 Spray dataset:
 |Feature|Description|
@@ -65,8 +65,51 @@ Weather dataset:
 |StnPressure| average station pressure (HG) |
 |SeaLevel| average sea level pressure (HG) |
 |ResultSpeed| resultant wind speed (miles per hour) |
-|ResulttDir| resultant direction of wind speed (degrees) |
+|ResultDir| resultant direction of wind speed (degrees) |
 |AvgSpeed| average speed of wind (miles per hour) |
+
+
+combined_cleaned dataset (train + weather):
+|Feature|Description|
+|---|---|
+|date| date of data observation |
+|latitude| latitude returned from GeoCoder |
+|longitude| longitude returned from GeoCoder |
+|wnv_present| presence of West Nile Virus in these mosquitos. 1 means WNV is present, and 0 means not present|
+|species_ohe| 0 - All other species, 1 - Culex Restuans, 2 - Culex Pipiens/Restuans, 3 - Culex Pipiens |
+|tmax| maximum temperature (degree fahrenheit) |
+|tmin| minimun temperature (degree fahrenheit) |
+|tavg| average temperature (degree fahrenheit) |
+|depart| departure from normal (degree fahrenheit) |
+|dew_point| average dew point (degree fahrenheit) |
+|wet_bulb| average wet bulb (degree fahrenheit) |
+|heat| heating day (base = 65 F)|
+|cool| cooling day (base = 65 F) |
+|precip_total| total precipitation (inches) |
+|stn_pressure| average station pressure (HG) |
+|sea_level| average sea level pressure (HG) |
+|result_speed| resultant wind speed (miles per hour) |
+|result_dir| resultant direction of wind speed (degrees) |
+|avg_speed| average speed of wind (miles per hour) |
+|daylight| average speed of wind (miles per hour) |
+|bc| patches weather type |
+|br| mist weather type |
+|dz| drizzle weather type |
+|fg| fog weather type |
+|fg+| heavy fog weather type |
+|fu| smoke weather type |
+|gr| hail weather type |
+|hz| haze weather type |
+|mi| shallow weather type |
+|ra| rain weather type |
+|sn| snow weather type |
+|sq| squall weather type |
+|ts| thunderstorm weather type |
+|vc| vicinity weather type |
+|year| year of data observation |
+|month| month of data observation |
+|week| week of data observation |
+|day| day of data observation |
 
 The project planning document can be found [here](https://docs.google.com/spreadsheets/d/1r5826I6BlhGzuFMtSM7oJ68pLHUEUJlhdhEZntUghWI/edit#gid=1386834576).
 
