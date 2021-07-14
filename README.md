@@ -69,7 +69,7 @@ Weather dataset:
 |AvgSpeed| average speed of wind (miles per hour) |
 
 
-combined_cleaned dataset (train + weather):
+combined_cleaned dataset (train + weather) & test_cleaned (test + weather):
 |Feature|Description|
 |---|---|
 |date| date of data observation |
