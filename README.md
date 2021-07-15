@@ -126,9 +126,7 @@ combined_cleaned dataset (train + weather) & test_cleaned (test + weather):
 |vc| vicinity weather type |
 |tavg_10, tavg_14, tavg_28| avg temperature (10, 14, 28 lag days) |
 |precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
-|precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
-|precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
-|r_humid_10, r_humid_14, r_humid_28| precipitation (10, 14, 28 lag days) |
+|r_humid_10, r_humid_14, r_humid_28| relative humidity (10, 14, 28 lag days) |
 |week| week of data observation |
 
 
