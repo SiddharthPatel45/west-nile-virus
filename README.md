@@ -90,8 +90,10 @@ combined_cleaned dataset (train + weather) & test_cleaned (test + weather):
 |date| date of data observation |
 |latitude| latitude returned from GeoCoder |
 |longitude| longitude returned from GeoCoder |
-|wnv_present| presence of West Nile Virus in these mosquitos. 1 means WNV is present, and 0 means not present|
-|species_ohe| 0 - All other species, 1 - Culex Restuans, 2 - Culex Pipiens/Restuans, 3 - Culex Pipiens |
+|wnv_present | presence of West Nile Virus in these mosquitos. 1 means WNV is present, and 0 means not present|
+|species_label_1.0| CULEX PIPIENS/RESTUANS |
+|species_label_2.0| CULEX PIPIENS |
+|species_label_3.0| Other mosquito species |
 |tmax| maximum temperature (degree fahrenheit) |
 |tmin| minimun temperature (degree fahrenheit) |
 |tavg| average temperature (degree fahrenheit) |
@@ -122,10 +124,13 @@ combined_cleaned dataset (train + weather) & test_cleaned (test + weather):
 |sq| squall weather type |
 |ts| thunderstorm weather type |
 |vc| vicinity weather type |
-|year| year of data observation |
-|month| month of data observation |
+|tavg_10, tavg_14, tavg_28| avg temperature (10, 14, 28 lag days) |
+|precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
+|precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
+|precip_total_10, precip_total_14, precip_total_28| precipitation (10, 14, 28 lag days) |
+|r_humid_10, r_humid_14, r_humid_28| precipitation (10, 14, 28 lag days) |
 |week| week of data observation |
-|day| day of data observation |
+
 
 The project planning document can be found [here](https://docs.google.com/spreadsheets/d/1r5826I6BlhGzuFMtSM7oJ68pLHUEUJlhdhEZntUghWI/edit#gid=1386834576).
 
